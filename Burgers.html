@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+}
+.sidebar {
+    float:left;
+    width: 250px;
+    background: white;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+.sidebar h3 {
+    margin-bottom: 15px;
+}
+
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar ul li {
+    padding: 8px 0;
+    cursor: pointer;
+    color: #555;
+}
+
+.sidebar ul li a:hover {
+    color: red;
+    font-weight: bold;
+}
+.sidebar ul li a {
+    color: red;
+    text-decoration: none;
+}
+.cards {
+    column-count:4;
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    background: #fff5f0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h4 {
+    margin: 10px 0 5px;
+    color: #c00;
+}
+
+.card p {
+    color: #444;
+    font-size: 14px;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+<aside class="sidebar">
+   <h3>DILIP<BR> RESTAURANT MENU</h3>
+        <ul>
+          <li><a href="file:///C:/Users/DILIP/menu.html">Biriyani</a></li>
+          <li><a href="file:///C:\Users\DILIP\Chicken.html">KFC Chicken</li>
+          <li><a href="file:///C:\Users\DILIP\chicken specialities.html">Chicken Specialities</a></li>
+          <li><a href="file:///C:\Users\DILIP\Chinese Chicken SPL.html">Chinese Chicken SPL</a></li>
+          <li><a href="file:///C:\Users\DILIP\Tandoori Specialist.html">Tandoori Specialist</a></li>
+          <li><a href="file:///C:\Users\DILIP\Barbeque Chicken.html">Barbeque Chicken</a></li>
+          <li><a href="file:///C:\Users\DILIP\Shawarma.html">Shawarma</a></li>
+          <li><a href="file:///C:\Users\DILIP\Burgers.html">Burgers</a></li>
+          <li><a href="file:///C:\Users\DILIP\Road Side Dishes.html">Road Side Dishes</a></li>
+         </ul>
+</aside>
+         <h2>BURGER</h2>
+           <div class="cards">
+              <div class="card">
+                  <img src="C:\Users\DILIP\Downloads\crunchy burger.jpg">
+                  <h4>KRUNCHY BURGER</h4>
+                  <p>Min. Order Value 160</p>
+                  <button type="button" onclick="document.location='file:///C:/Users/DILIP/buynow.html'">BUY NOW</button>
+              </div>
+              <div class="card">
+                  <img src="C:\Users\DILIP\Downloads\chickenzinger.jpg">
+                  <h4>CHICKEN ZINGER</h4>
+                  <p>Min. Order Value 150</p>
+                  <button type="button" onclick="document.location='file:///C:/Users/DILIP/buynow.html'">BUY NOW</button>
+              </div>
+              <div class="card">
+                  <img src="C:\Users\DILIP\Downloads\vegzinger.jpg">
+                  <h4>VEG ZINGER</h4>
+                  <p>Min. Order Value 130</p>
+                  <button type="button" onclick="document.location='file:///C:/Users/DILIP/buynow.html'">BUY NOW</button>
+              </div>
+         </div>
+</body>
