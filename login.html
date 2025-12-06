@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <head>
+<style>
+.card {
+    width: 280px;
+    background: #fff5f0;
+    padding: 15px;
+    border-radius: 8px;
+    text-align:center;
+    border: 1px solid #ddd;
+}
+hr{
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+</style>
 </head>
 <body>
-<h1>LOGIN</h1>
-<p>Username:</p>
-<input type="text">
-<p>Password:</p>
-<input type="text">
-<button>login</button>
+<form>
+<center>
+<div class="card">
+    <h1>LOGIN</h1>
+    <hr>
+    <lable for="username">Username:</lable>
+    <input type="text"><br><br>
+    <lable fro="password">Password:</lable>
+    <input type="text"><br><br>
+    <button type="button" onclick="document.location='file:///C:/Users/DILIP/lobby.html'">login</button><br><br>
+    <lable>If you are not having an account?</lable>
+    <a href="file:///C:/Users/DILIP/signup.html">sign in</a>
+</div>
+</center>
+</form>
+</body>
